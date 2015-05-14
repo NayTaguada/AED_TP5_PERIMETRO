@@ -1,0 +1,35 @@
+INICIO
+            ESCRIBO "Ingresar la altura del rectangulo"
+                  LLAMO A LA FUNCION GetNumeroPositivo
+
+                        MIENTRAS  FUNCION = TRUE
+                        LEO EL NUMERO
+
+                            ME FIJO SI ES MAYOR A 0
+
+		SI ES MAYOR A 0
+		LEO EL NUMERO
+
+                            SI NO ES MAYOR A 0 
+		LEER "Ingresar un numero mayor a 0"
+
+
+           ESCRIBO "Ingresar la altura del rectangulo"
+                  LLAMO A LA FUNCION GetNumeroPositivo
+
+                        MIENTRAS  FUNCION = TRUE
+                        LEO EL NUMERO
+
+                            ME FIJO SI ES MAYOR A 0
+
+		SI ES MAYOR A 0
+		LEO EL NUMERO
+
+                            SI NO ES MAYOR A 0 
+		LEER "Ingresar un numero mayor a 0"
+	
+	ESCRIBO "El perimetro es:"
+		LLAMO A LA FUNCION GetPerimetro(h,b)
+     DEVUELVO EL PRODUCTO DE AMBOS
+
+FIN
